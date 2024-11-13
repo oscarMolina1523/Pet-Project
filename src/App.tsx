@@ -1,12 +1,12 @@
+import { RouterProvider } from 'react-router-dom';
 import './App.css';
-import { Button } from './components/ui/button';
+import router from './routes/Routes';
 
 function App() {
 
   return (
     <>
-      <div className="bg-ligth-surface-neutral">Main Layout</div>
-      <Button>Shadcn</Button>
+      <RouterProvider router={router} />
     </>
   )
 }
