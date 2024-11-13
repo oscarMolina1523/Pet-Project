@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Button } from "../ui/button";
 import { Input } from "../ui/input";
 import { Label } from "../ui/label";
@@ -11,14 +12,22 @@ const LoginFormComponent: React.FC = () => {
         <Label className="text-gray font-bold tracking-wide text-[1.5rem]">BIENVENIDO</Label>
       </div>
       <div className="flex flex-col gap-3 w-full">
-        <Input className="h-[3rem] opacity-75 shadow-xl" placeholder="EMAIL"/>
-        <Input className="h-[3rem] opacity-75 shadow-xl" placeholder="CONTRASEÑA"/>
+        <Input className="h-[3rem] opacity-75 shadow-xl" placeholder="EMAIL" />
+        <Input className="h-[3rem] opacity-75 shadow-xl" placeholder="CONTRASEÑA" />
       </div>
       <div className="flex flex-row items-end justify-end w-full">
         <Label className="text-gray text-opacity-85">¿Olvidaste tu contraseña?</Label>
       </div>
       <div className="flex flex-row items-center justify-center w-full">
-        <Button className="h-[3.5rem] font-semibold tracking-wide rounded-full px-8 bg-sky-blue text-surface-neutral hover:border hover:border-sky-blue hover:text-sky-blue hover:bg-surface-neutral">INICIAR SESIÓN</Button>
+        <Button
+          asChild
+          className="h-[3.5rem] font-semibold tracking-wide rounded-full px-8 bg-sky-blue text-surface-neutral hover:border hover:border-sky-blue hover:text-sky-blue hover:bg-surface-neutral"
+        >
+          <Link to="/home" className="flex flex-row items-center justify-center">
+            INICIAR SESIÓN
+          </Link>
+        </Button>
+
       </div>
       <div className="flex flex-row items-center justify-center gap-2">
         <Label className="text-gray text-opacity-75">AÚN NO TENGO UNA CUENTA</Label>
