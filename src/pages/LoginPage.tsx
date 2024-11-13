@@ -1,3 +1,4 @@
+import LoginFormComponent from "@/components/petProject/LoginForm";
 import React from "react";
 
 const LoginPage: React.FC = () => {
@@ -11,8 +12,8 @@ const LoginPage: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col w-1/2 static">
-        this is the email component
+      <div className="flex flex-col w-1/2 static items-start justify-center">
+       <LoginFormComponent/>
       </div>
     </div>
   );
