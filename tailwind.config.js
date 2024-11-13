@@ -4,6 +4,8 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
   	colors: {
+		'custom-orange-1': '#FEB53A',
+        'custom-orange-2': '#D65C15',
   		'surface-neutral': '#FFFFFF',
   		'ligth-surface-neutral': '#F8F8F8',
   		'ligth-gray': '#F3F6FB',
