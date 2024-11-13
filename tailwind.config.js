@@ -4,19 +4,23 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
   	colors: {
+  		'custom-orange-1': '#FEB53A',
+  		'custom-orange-2': '#D65C15',
+  		'custom-orange-3': '#FF6752',
   		'surface-neutral': '#FFFFFF',
   		'ligth-surface-neutral': '#F8F8F8',
   		'ligth-gray': '#F3F6FB',
+  		'gray': '#4D4F5C',
   		'ligth-opac-gray': '#00000029',
   		'dark-orange': '#FF6752',
-  		'orange': '#FEB53A',
-  		'brown': '#D65C15',
+  		orange: '#FEB53A',
   		'sky-blue': '#4487FF',
   		'light-sky-blue': '#4487FF57',
   		'opac-sky-blue': '#2C1DAD29',
-  		'gray': '#707070',
-  		'yellow': '#FFE530',
-  		'beige': '#FFCC55',
+  		'dark-sky-blue': '#015F91',
+  		gray: '#707070',
+  		yellow: '#FFE530',
+  		beige: '#FFCC55'
   	},
   	fontFamily: {
   		sans: ["Lato", "sans-serif"]
