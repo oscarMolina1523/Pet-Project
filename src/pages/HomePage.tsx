@@ -1,3 +1,4 @@
+import FooterComponent from "@/components/petProject/Footer";
 import HomeMotivationalMessageComponent from "@/components/petProject/HomeMotivationalMessage";
 import HomePresentationComponent from "@/components/petProject/HomePresentation";
 import HomeProcessComponent from "@/components/petProject/HomeProcess";
@@ -13,6 +14,7 @@ const HomePage: React.FC = () => {
       <HomeTestimonialsComponent />
       <HomeProcessComponent />
       <HomeMotivationalMessageComponent />
+      <FooterComponent/>
     </>
   );
 }
