@@ -1,7 +1,7 @@
 import MainLayoutComponent from "@/layouts/MainLayout";
-import ErrorPage from "@/pages/ErrorPage";
-import HomePage from "@/pages/HomePage";
-import LoginPage from "@/pages/LoginPage";
+import ErrorPage from "@/pages/error/ErrorPage";
+import HomePage from "@/pages/home/HomePage";
+import LoginPage from "@/pages/auth/LoginPage";
 import { createBrowserRouter, Navigate } from "react-router-dom";
 
 const router = createBrowserRouter([

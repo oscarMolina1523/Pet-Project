@@ -1,6 +1,6 @@
 import React from "react";
+import HomeNavbarComponent from "../../../shared/HomeNavbar";
 import HomeBodyComponent from "./HomeBody";
-import HomeNavbarComponent from "./HomeNavbar";
 
 const HomePresentationComponent: React.FC = () => {
   return (

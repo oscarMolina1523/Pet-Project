@@ -1,6 +1,6 @@
+import { Card } from "@/components/ui/card";
+import { Label } from "@/components/ui/label";
 import React from "react";
-import { Card } from "../ui/card";
-import { Label } from "../ui/label";
 
 const HomeProcessStep: React.FC = () => {
   return (

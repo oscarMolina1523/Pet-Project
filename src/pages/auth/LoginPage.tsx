@@ -1,4 +1,4 @@
-import LoginFormComponent from "@/components/petProject/LoginForm";
+import LoginFormComponent from "@/components/petProject/login/LoginForm";
 import React from "react";
 
 const LoginPage: React.FC = () => {
