@@ -1,8 +1,8 @@
 import { ArrowRight } from "lucide-react";
 import React from "react";
-import { Card } from "../ui/card";
-import { Input } from "../ui/input";
-import { Label } from "../ui/label";
+import { Card } from "../../ui/card";
+import { Input } from "../../ui/input";
+import { Label } from "../../ui/label";
 
 const HomeServiceComponent: React.FC = () => {
   return (
