@@ -1,5 +1,6 @@
 import HomePresentationComponent from "@/components/petProject/HomePresentation";
 import HomeServiceComponent from "@/components/petProject/HomeServices";
+import HomeTestimonialsComponent from "@/components/petProject/HomeTestimonials";
 import React from "react";
 
 const HomePage: React.FC = () => {
@@ -7,6 +8,7 @@ const HomePage: React.FC = () => {
     <>
     <HomePresentationComponent/>
     <HomeServiceComponent/>
+    <HomeTestimonialsComponent/>
     </>
   );
 }

@@ -1,5 +1,6 @@
 import { ArrowRight } from "lucide-react";
 import React from "react";
+import { Card } from "../ui/card";
 import { Input } from "../ui/input";
 import { Label } from "../ui/label";
 
@@ -23,7 +24,26 @@ const HomeServiceComponent: React.FC = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col w-1/2 bg-custom-orange-3 ">rigth</div>
+        <div className="flex flex-col w-1/2 h-full">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-3/4 px-4 py-4">
+            <Card className="flex flex-col gap-6 items-center py-4">
+              <img className="h-2/4" src="src\assets\dogWalking.png" alt="dog-walking"/>
+              <Label className="text-gray tracking-wide">Dog Walking</Label>
+            </Card>
+            <Card className="flex flex-col gap-6 items-center py-4">
+              <img className="h-2/4" src="src\assets\petSitting.svg" alt="pet-sitting"/>
+              <Label className="text-gray tracking-wide">Pet Sitting</Label>
+            </Card>
+            <Card className="flex flex-col gap-6 items-center py-4">
+              <img className="h-2/4" src="src\assets\overnightCare.svg" alt="overnight-care"/>
+              <Label className="text-gray tracking-wide">Overnight Care</Label>
+            </Card>
+            <Card className="flex flex-col gap-6 items-center py-4">
+              <img className="h-2/4"  src="src\assets\dogPaw.svg" alt="dog-paw"/>
+              <Label className="text-gray tracking-wide">Other Services</Label>
+            </Card>
+          </div>
+        </div>
       </div>
     </div>
   );

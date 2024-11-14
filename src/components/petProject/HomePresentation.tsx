@@ -9,7 +9,7 @@ const HomePresentationComponent: React.FC = () => {
       <div className="w-full absolute">
         <HomeNavbarComponent />
       </div>
-      <div className="w-full h-full absolute top-12 flex flex-col items-center justify-center">
+      <div className="w-full h-full absolute top-12 flex flex-col items-start justify-center">
         <HomeBodyComponent />
       </div>
     </div>

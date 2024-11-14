@@ -4,8 +4,8 @@ import { Label } from "../ui/label";
 
 const HomeBodyComponent: React.FC = () => {
   return (
-    <div className="flex flex-row w-3/4 h-full items-center justify-center">
-      <div className="relative w-1/2 h-full flex flex-col items-center justify-center gap-6">
+    <div className="flex flex-row w-4/5 h-full items-center justify-center gap-10">
+      <div className="relative w-2/3 h-full flex flex-col items-center justify-center gap-6 px-10">
         <div className="text-surface-neutral text-[2rem] font-semibold w-full text-left">
           <Label className="text-surface-neutral text-[3.5rem] font-semibold tracking-wide">We Get Pet Care!</Label>
         </div>
