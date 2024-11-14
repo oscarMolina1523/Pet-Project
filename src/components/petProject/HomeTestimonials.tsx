@@ -19,7 +19,7 @@ const HomeTestimonialsComponent: React.FC = () => {
             />
           </div>
           <Label className="text-surface-neutral tracking-wide">Kenned Dsouza</Label>
-          <Label className="text-center px-4 text-surface-neutral tracking-wide">
+          <Label className="text-center px-4 text-surface-neutral tracking-wide leading-[1.3rem]">
             "I like that I got to meet the dog Walker who is walking my dog daily and consult with her. I also appreciate the daily communication I get about the dog and how my dog is doing."
           </Label>
         </Card>
@@ -44,7 +44,7 @@ const HomeTestimonialsComponent: React.FC = () => {
             />
           </div>
           <Label className="text-surface-neutral tracking-wide">Kenned Dsouza</Label>
-          <Label className="text-center px-4 text-surface-neutral tracking-wide">
+          <Label className="text-center px-4 text-surface-neutral tracking-wide leading-[1.3rem]">
             "I like that I got to meet the dog Walker who is walking my dog daily and consult with her. I also appreciate the daily communication I get about the dog and how my dog is doing."
           </Label>
         </Card>
@@ -57,7 +57,7 @@ const HomeTestimonialsComponent: React.FC = () => {
             />
           </div>
           <Label className="text-surface-neutral tracking-wide">Kenned Dsouza</Label>
-          <Label className="text-center px-4 text-surface-neutral tracking-wide">
+          <Label className="text-center px-4 text-surface-neutral tracking-wide leading-[1.3rem]">
             "I like that I got to meet the dog Walker who is walking my dog daily and consult with her. I also appreciate the daily communication I get about the dog and how my dog is doing."
           </Label>
         </Card>
