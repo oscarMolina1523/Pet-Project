@@ -5,7 +5,7 @@ import { Label } from "../components/ui/label";
 
 const FooterComponent: React.FC = () => {
   return (
-    <div className="w-full h-[34rem] overflow-hidden relative flex flex-col items-center justify-end">
+    <div className="w-full h-[34rem] overflow-hidden relative flex flex-col items-center justify-end mt-auto">
       <img className="static object-cover object-bottom w-full h-full" src="src\assets\orange-footer.svg" />
       <div className="flex flex-row gap-4 px-4 w-full absolute items-end justify-center h-full py-6 ">
         <div className="flex flex-col w-1/5 gap-4">

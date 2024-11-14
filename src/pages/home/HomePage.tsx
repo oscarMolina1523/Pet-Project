@@ -3,7 +3,6 @@ import HomePresentationComponent from "@/components/petProject/home/HomePresenta
 import HomeProcessComponent from "@/components/petProject/home/HomeProcess";
 import HomeServiceComponent from "@/components/petProject/home/HomeServices";
 import HomeTestimonialsComponent from "@/components/petProject/home/HomeTestimonials";
-import FooterComponent from "@/shared/Footer";
 import React from "react";
 
 const HomePage: React.FC = () => {
@@ -14,7 +13,6 @@ const HomePage: React.FC = () => {
       <HomeTestimonialsComponent />
       <HomeProcessComponent />
       <HomeMotivationalMessageComponent />
-      <FooterComponent/>
     </>
   );
 }
