@@ -16,7 +16,7 @@ const HomeServiceComponent: React.FC = () => {
             <Label className="text-custom-orange-3 font-semibold tracking-wide">Enter Your Location and Fetch Our Services</Label>
             <div className="relative w-1/2">
               <Input placeholder="Zip code" className="rounded-full h-[3rem] pr-12" />
-              <div className="absolute inset-y-0 right-0 flex items-center pr-3">
+              <div className="absolute inset-y-0 right-0 flex items-center pr-1">
                 <div className="bg-custom-orange-3 p-2 rounded-full">
                   <ArrowRight className="text-surface-neutral" />
                 </div>
