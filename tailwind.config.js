@@ -5,8 +5,9 @@ export default {
   theme: {
   	colors: {
   		'custom-orange-1': '#FEB53A',
-  		'custom-orange-2': '#D65C15',
+  		'custom-orange-2': '#D65C15', 
   		'custom-orange-3': '#FF6752',
+  		'custom-orange-4': '#FE6845',
   		'dark-orange': '#c93210',
   		'transparent': '#00000000',
   		'purple': '#3220CE80',
