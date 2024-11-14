@@ -8,6 +8,7 @@ export default {
   		'custom-orange-2': '#D65C15',
   		'custom-orange-3': '#FF6752',
   		'dark-orange': '#c93210',
+  		'transparent': '#00000000',
   		'purple': '#3220CE80',
   		'surface-neutral': '#FFFFFF',
   		'ligth-surface-neutral': '#F8F8F8',
