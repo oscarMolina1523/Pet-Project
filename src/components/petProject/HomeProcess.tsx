@@ -10,22 +10,6 @@ const HomeProcessComponent: React.FC = () => {
       <img className="static object-cover object-right w-full h-full" src="src\assets\yellow-circle.svg" />
       <div className="absolute flex flex-row w-3/4 gap-8 h-full bg-transparent">
         <div className="w-1/2 flex flex-row gap-4 relative bg-transparent">
-          {/* <div className="w-1/2 h-full flex flex-col justify-around bg-transparent">
-            <Card className="flex flex-col gap-6 items-center py-4 w-2/3">
-              <img className="h-2/4" src="src\assets\calendar.svg" alt="calendar" />
-              <Label className="text-gray tracking-wide">Reserve</Label>
-            </Card>
-            <Card className="flex flex-col gap-6 items-center py-4  w-2/3">
-              <img className="h-2/4" src="src\assets\happyPet.svg" alt="happy-pet" />
-              <Label className="text-gray tracking-wide">Relax</Label>
-            </Card>
-          </div>
-          <div className="w-1/2 flex flex-col items-center justify-center h-full bg-transparent">
-            <Card className="flex flex-col gap-6 items-center py-4 w-2/3">
-              <img className="h-2/4" src="src\assets\match.svg" alt="match" />
-              <Label className="text-gray tracking-wide">Match</Label>
-            </Card>
-          </div> */}
           <HomeProcessStep/>
         </div>
         <div className="w-1/2 flex flex-col text-left gap-4 justify-start mt-12 bg-transparent">

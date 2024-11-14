@@ -20,12 +20,12 @@ const HomeBodyComponent: React.FC = () => {
         </div>
       </div>
       <div className="relative w-1/2 h-full flex items-center justify-center">
-        <div className="relative bg-custom-orange-1 rounded-full w-[19rem] h-[19rem] flex items-center justify-center">
+        <div className="relative bg-custom-orange-1 rounded-full w-[20rem] h-[19rem] flex items-center justify-center">
           <img
-            className="absolute object-cover transform top-[-31%] rounded-full"
+            className="absolute object-cover transform top-[-31%] rounded-b-full"
             src="src/assets/homePetPresentation.png"
             alt="home-pet-presentation"
-            style={{ clipPath: 'circle(50% at 50% 37% )' }}
+            style={{ clipPath: 'circle(46% at 50% 37% )' }}
           />
         </div>
       </div>

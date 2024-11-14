@@ -1,3 +1,4 @@
+import HomeMotivationalMessageComponent from "@/components/petProject/HomeMotivationalMessage";
 import HomePresentationComponent from "@/components/petProject/HomePresentation";
 import HomeProcessComponent from "@/components/petProject/HomeProcess";
 import HomeServiceComponent from "@/components/petProject/HomeServices";
@@ -7,10 +8,11 @@ import React from "react";
 const HomePage: React.FC = () => {
   return (
     <>
-    <HomePresentationComponent/>
-    <HomeServiceComponent/>
-    <HomeTestimonialsComponent/>
-    <HomeProcessComponent/>
+      <HomePresentationComponent />
+      <HomeServiceComponent />
+      <HomeTestimonialsComponent />
+      <HomeProcessComponent />
+      <HomeMotivationalMessageComponent />
     </>
   );
 }
