@@ -1,50 +1,23 @@
-# React + TypeScript + Vite
+# Pet Project - Blog con React, TypeScript, Vite, TailwindCSS y shadcn
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una aplicación de blog básica construida con React, TypeScript y Vite, utilizando TailwindCSS y shadcn para la interfaz de usuario. La aplicación permite a los usuarios escribir y visualizar artículos en Markdown.
 
-Currently, two official plugins are available:
+## Tecnologías Usadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este proyecto utiliza las siguientes tecnologías y librerías:
 
-## Expanding the ESLint configuration
+- **React** - Librería para construir interfaces de usuario.
+- **TypeScript** - Superset de JavaScript que agrega tipado estático.
+- **Vite** - Herramienta de compilación rápida y optimizada.
+- **TailwindCSS** - Framework de CSS utilitario para estilos rápidos y consistentes.
+- **shadcn** - Librería de componentes UI preconstruidos compatibles con TailwindCSS.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Instalación
 
-- Configure the top-level `parserOptions` property like this:
+Clona el repositorio:
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+```bash
+git clone https://github.com/oscarMolina1523/pet-project.git
+cd pet-project
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
