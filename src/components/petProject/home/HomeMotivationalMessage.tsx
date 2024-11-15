@@ -5,7 +5,7 @@ import { Label } from "../../ui/label";
 
 const HomeMotivationalMessageComponent: React.FC = () => {
   return (
-    <div className="flex flex-col w-full h-screen relative items-center justify-center bg-surface-neutral">
+    <div className="flex flex-col w-full h-screen relative items-center justify-center bg-sky">
       <div className="w-3/5 h-1/2">
         <Card className="flex flex-row w-full h-full bg-dark-blue">
           <div className="flex flex-col w-1/3 items-center justify-center">

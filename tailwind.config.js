@@ -11,6 +11,7 @@ export default {
   		'dark-orange': '#c93210',
   		'red': '#FD6845',
   		'sky-green': '#00C29B',
+  		'sky': '#F3F6FB',
   		'black': '#0c0c0c',
   		'transparent': '#00000000',
   		'purple': '#3220CE80',

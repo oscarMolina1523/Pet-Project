@@ -5,7 +5,7 @@ import { Label } from "../../ui/label";
 
 const HomeTestimonialsComponent: React.FC = () => {
   return (
-    <div className="flex flex-col items-center justify-center w-full h-screen bg-surface-neutral gap-8">
+    <div className="flex flex-col items-center justify-center w-full h-screen bg-sky gap-8">
       <div className="w-1/2">
         <Label className="text-dark-orange text-center text-[3rem] font-semibold tracking-wide">Here's what pet owners have to say about Fetch! Pet Care...</Label>
       </div>
