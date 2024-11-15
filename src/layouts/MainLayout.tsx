@@ -5,7 +5,7 @@ import { Outlet } from "react-router-dom";
 
 const MainLayoutComponent: React.FC = () => {
   return (
-    <div className="bg-transparent flex flex-col">
+    <div className="bg-sky flex flex-col">
       <HomeNavbarComponent/>
       <Outlet/>
       <FooterComponent/>

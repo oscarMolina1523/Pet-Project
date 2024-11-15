@@ -6,7 +6,7 @@ import { Label } from "../../ui/label";
 
 const HomeServiceComponent: React.FC = () => {
   return (
-    <div className="w-full h-screen overflow-hidden relative flex flex-col">
+    <div className="w-full h-screen overflow-hidden relative flex flex-col bg-sky">
       <img className="static object-cover object-top w-full h-full" src="src\assets\homeBlueServices.svg" />
       <div className="absolute w-full h-full flex flex-row items-start px-4 py-8">
         <div className="flex flex-col w-1/2 items-center justify-start">

@@ -4,7 +4,7 @@ import React from "react";
 
 const HomeProcessStep: React.FC = () => {
   return (
-    <div className="w-full h-full relative flex  flex-col">
+    <div className="w-full h-full relative flex  flex-col bg-sky">
       <img className="static object-cover object-right w-full h-full" src="src\assets\circle-orange.svg" />
       <div className="flex flex-row w-3/4 gap-8 h-full absolute bg-transparent">
         <div className="w-1/2 flex flex-col justify-between h-full">
