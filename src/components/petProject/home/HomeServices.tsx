@@ -6,10 +6,10 @@ import { Label } from "../../ui/label";
 
 const HomeServiceComponent: React.FC = () => {
   return (
-    <div className="w-full h-screen overflow-hidden relative flex flex-col bg-sky">
-      <img className="static object-cover object-top w-full h-full" src="src\assets\homeBlueServices.svg" />
-      <div className="absolute w-full h-full flex flex-row items-start px-4 py-8">
-        <div className="flex flex-col w-1/2 items-center justify-start">
+    <div className="w-full h-screen overflow-hidden items-end justify-end relative flex flex-col bg-transparent">
+      {/* <img className="static object-cover object-top w-full h-full" src="src\assets\homeBlueServices.svg" /> */}
+      <div className="absolute w-full h-full flex flex-row items-end justify-end px-4 py-8">
+        <div className="flex flex-col w-1/2 items-center justify-start h-full">
           <div className="w-2/4 flex flex-col text-left gap-4">
             <Label className="text-custom-orange-3 font-semibold tracking-wide text-[3rem]">Our Services</Label>
             <Label className="text-gray tracking-wide text-justify">National Brand With a Local Feel. Experience the Fetch! Difference</Label>

@@ -6,8 +6,8 @@ import HomeProcessStep from "./HomeProcessStep";
 
 const HomeProcessComponent: React.FC = () => {
   return (
-    <div className="w-full relative h-screen flex flex-col items-center justify-center bg-sky">
-      <img className="static object-cover object-right w-full h-full" src="src\assets\yellow-circle.svg" />
+    <div className="w-full relative h-screen flex flex-col items-center justify-center bg-transparent">
+      {/* <img className="static object-cover object-right w-full h-full" src="src\assets\yellow-circle.svg" /> */}
       <div className="absolute flex flex-row w-3/4 gap-8 h-full bg-transparent">
         <div className="w-1/2 flex flex-row gap-4 relative bg-transparent">
           <HomeProcessStep/>
