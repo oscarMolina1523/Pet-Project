@@ -7,7 +7,7 @@ const FooterComponent: React.FC = () => {
   return (
     <div className="w-full h-[34rem] overflow-hidden relative flex flex-col items-center justify-end mt-auto bg-sky">
       <img className="static object-cover object-bottom w-full h-full" src="src\assets\orange-footer.svg" />
-      <div className="flex flex-row gap-4 px-4 pt-12 w-full absolute items-center justify-center h-full ">
+      <div className="flex flex-row gap-4 px-4 pt-12 w-full absolute items-center justify-center h-full">
         <div className="flex flex-col w-1/5 gap-4">
           <Label className="text-yellow text-left text-[1.2rem] font-semibold tracking-wide">About</Label>
           <Label className="text-surface-neutral text-left text-[1.2rem] tracking-wide">Locations</Label>
@@ -43,6 +43,8 @@ const FooterComponent: React.FC = () => {
               </div>
             </div>
           </div>
+          <br/>
+          <br/>
         </div>
       </div>
     </div>
