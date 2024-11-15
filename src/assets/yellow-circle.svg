@@ -1,1 +1,10 @@
-<svg id="visual" viewBox="0 0 900 600" width="900" height="600" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"><rect x="0" y="0" width="900" height="600" fill="#F3F6FB"></rect><g fill="#FFE530"><circle r="285" cx="776" cy="197"></circle><circle r="72" cx="17" cy="473"></circle></g></svg>
+<svg width="900" height="600" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" version="1.1">
+ <g class="layer">
+  <title>Layer 1</title>
+  <rect fill="#F3F6FB" height="600" id="svg_1" transform="matrix(1 0 0 1 0 0)" width="900" x="21" y="41"/>
+  <g fill="#FFE530" id="svg_2">
+   <circle cx="-7.08" cy="430.76" id="svg_4" r="85.92" transform="matrix(1 0 0 1 0 0)"/>
+   <circle cx="853.5" cy="285" id="svg_5" r="240.61"/>
+  </g>
+ </g>
+</svg>

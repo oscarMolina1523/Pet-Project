@@ -5,11 +5,11 @@ import { Label } from "../../ui/label";
 
 const HomeTestimonialsComponent: React.FC = () => {
   return (
-    <div className="flex flex-col items-center justify-center w-full h-screen bg-sky gap-8">
+    <div className="flex flex-col items-center justify-center w-full h-screen bg-transparent gap-8">
       <div className="w-1/2">
         <Label className="text-dark-orange text-center text-[3rem] font-semibold tracking-wide">Here's what pet owners have to say about Fetch! Pet Care...</Label>
       </div>
-      <div className="relative flex flex-row w-full h-1/2 items-center justify-center gap-8">
+      <div className="relative flex flex-row w-full h-full items-center justify-center gap-8">
         <Card className=" absolute flex flex-col z-30 w-1/3 h-full items-center py-6 gap-4 bg-gradient-to-tr from-dark-blue to-sky-blue rounded-b-3xl shadow-lg bg-[url('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22100%25%22 height=%22100%25%22 viewBox=%220 0 1440 320%22><path fill=%22%23ffffff%22 fill-opacity=%220.3%22 d=%22M0,32L80,58.7C160,85,320,139,480,176C640,213,800,235,960,240C1120,245,1280,235,1360,229.3L1440,224L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z%22></path></svg>')] bg-bottom bg-no-repeat">
           <div className="rounded-full">
             <img
