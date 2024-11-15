@@ -1,6 +1,6 @@
-# Pet Project - Blog con React, TypeScript, Vite, TailwindCSS y shadcn
+# Pet Project - Web con React, TypeScript, Vite, TailwindCSS y shadcn
 
-Este proyecto es una aplicación de blog básica construida con React, TypeScript y Vite, utilizando TailwindCSS y shadcn para la interfaz de usuario. La aplicación permite a los usuarios escribir y visualizar artículos en Markdown.
+Este proyecto es una aplicación  construida con React, TypeScript y Vite, utilizando TailwindCSS y shadcn para la interfaz de usuario. La aplicación permite a los usuarios logearse y visualizar informacion de los servicios ofrecidos.
 
 ## Tecnologías Usadas
 
